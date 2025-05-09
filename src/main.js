@@ -38,7 +38,7 @@ scene.add(secondCube);
 // Secondary cube 2
 const thirdGeometry = new THREE.BoxGeometry(1, 1, 1);
 const video2 = document.createElement("video");
-video2.src = "./itsuki.mp4";
+video2.src = "./nino.mp4";
 video2.loop = true;
 video2.muted = true;
 video2.play();
@@ -52,7 +52,7 @@ scene.add(thirdCube);
 // Secondary cube 3
 const fourthGeometry = new THREE.BoxGeometry(1, 1, 1);
 const video3 = document.createElement("video");
-video3.src = "./itsuki.mp4";
+video3.src = "./miku.mp4";
 video3.loop = true;
 video3.muted = true;
 video3.play();
@@ -67,7 +67,7 @@ scene.add(fourthCube);
 // Secondary cube 4
 const fifthGeometry = new THREE.BoxGeometry(1, 1, 1);
 const video4 = document.createElement("video");
-video4.src = "./itsuki.mp4";
+video4.src = "./ichika.mp4";
 video4.loop = true;
 video4.muted = true;
 video4.play();
@@ -82,7 +82,7 @@ scene.add(fifthCube);
 // Secondary cube 4
 const sixthGeometry = new THREE.BoxGeometry(1, 1, 1);
 const video5 = document.createElement("video");
-video5.src = "./itsuki.mp4";
+video5.src = "./yotsuba.mp4";
 video5.loop = true;
 video5.muted = true;
 video5.play();
