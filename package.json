@@ -2,7 +2,7 @@
     "name": "firstcontactwiththree",
     "version": "1.0.0",
     "description": "My first testing with three.js, following the documentation.",
-    "main": "index.html",
+    "main": "main.js",
     "scripts": {
         "dev": "npx vite",
         "build": "npx vite build"
