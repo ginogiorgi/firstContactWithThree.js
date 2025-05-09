@@ -20,8 +20,13 @@ document.body.appendChild(renderer.domElement);
 
 //principal cube
 const geometry = new THREE.BoxGeometry(2, 2, 2);
-const texture = textureLoader.load("./juanma.jpg");
-const material = new THREE.MeshBasicMaterial({ map: texture });
+const video = document.createElement("video");
+video.src = "./juanma.mp4";
+video.loop = true;
+video.muted = true;
+video.play();
+const videoTexture = new THREE.VideoTexture(video);
+const material = new THREE.MeshBasicMaterial({ map: videoTexture });
 const cube = new THREE.Mesh(geometry, material);
 
 scene.add(cube);
