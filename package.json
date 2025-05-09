@@ -1,0 +1,26 @@
+{
+    "name": "firstcontactwiththree",
+    "version": "1.0.0",
+    "description": "My first testing with three.js, following the documentation.",
+    "main": "index.html",
+    "scripts": {
+        "dev": "npx vite",
+        "build": "npx vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ginogiorgi/firstContactWithThree.js.git"
+    },
+    "author": "Gino Ruben Giorgi (ginorubengiorgi@gmail.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ginogiorgi/firstContactWithThree.js/issues"
+    },
+    "homepage": "https://github.com/ginogiorgi/firstContactWithThree.js#readme",
+    "dependencies": {
+        "three": "^0.176.0"
+    },
+    "devDependencies": {
+        "vite": "^6.3.5"
+    }
+}
