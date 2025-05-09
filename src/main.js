@@ -2,6 +2,12 @@ import * as THREE from "three";
 
 //Creating the scene
 const scene = new THREE.Scene();
+const textureLoader = new THREE.TextureLoader();
+
+textureLoader.load("./image.jpg", function (texture) {
+    scene.background = texture;
+});
+
 const camera = new THREE.PerspectiveCamera(
     75,
     window.innerWidth / window.innerHeight,
@@ -14,7 +20,6 @@ document.body.appendChild(renderer.domElement);
 
 //principal cube
 const geometry = new THREE.BoxGeometry(2, 2, 2);
-const textureLoader = new THREE.TextureLoader();
 const texture = textureLoader.load("./juanma.jpg");
 const material = new THREE.MeshBasicMaterial({ map: texture });
 const cube = new THREE.Mesh(geometry, material);
